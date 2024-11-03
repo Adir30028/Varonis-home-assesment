@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recent Work Items</title>
+</head>
+<body>
+    <h1>Recent Work Items (Last 3 Days)</h1>
+    <ul>
+        {% for item in work_items %}
+            <li>ID: {{ item.id }}, Title: {{ item.title }}, Type: {{ item.type }}</li>
+        {% endfor %}
+    </ul>
+    <hr>
+    <a href="/">Home</a> |
+    <a href="/update_work_items">Update Work Items</a> |
+    <a href="/create_child_items">Create Child Work Items</a>
+</body>
+</html>

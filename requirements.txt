@@ -1,0 +1,5 @@
+Flask
+azure-devops
+msrest
+requests
+python-dotenv
