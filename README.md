@@ -1,4 +1,5 @@
 Varonis Home Assessment Project
+
 This project is a Flask web application designed to interact with Azure DevOps for managing Work Items. The application provides the following key functionalities:
 
 Retrieve Recent Work Items: Fetches all Work Items created in the past 3 days.
