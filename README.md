@@ -19,3 +19,11 @@ This project is a Flask web application that interacts with Azure DevOps to mana
    ```bash
    git clone https://github.com/Adir30028/Varonis-home-assesment.git
    cd Varonis-home-assesment
+   
+2. **Create a virtual environment and activate it**:
+
+(bash)
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+Install dependencies:
