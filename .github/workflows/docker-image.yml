@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - master  # מריץ את ה-Workflow כשאתה עושה push ל-branch master
+      - master  
 
 jobs:
   build-and-push:
